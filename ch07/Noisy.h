@@ -3,10 +3,9 @@
 #ifndef NOISY_H
 #define NOISY_H
 #include <iostream>
-#include <unordered_set>
 using std::endl;
 using std::cout;
-using std::osteam;
+using std::ostream;
 
 class Noisy {
 	static long create, assign, copycons, destroy;

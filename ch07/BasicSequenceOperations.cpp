@@ -57,6 +57,8 @@ void basicOps(char* s) {
 	print(c, "c after resize(4)");
 	c.push_back(47);
 	print(c, "c after push_back()");
+	c.pop_back();
+	print(c, "c after pop_back()");
 	typename Ci::iterator it = c.begin();
 	++it; ++it;
 	c.insert(it, 74);

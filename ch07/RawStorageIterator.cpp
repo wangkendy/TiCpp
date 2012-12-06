@@ -3,6 +3,7 @@
 //{L} Noisy
 #include <iostream>
 #include <iterator>
+//#include <hash_map>
 #include "Noisy.h"
 using namespace std;
 
