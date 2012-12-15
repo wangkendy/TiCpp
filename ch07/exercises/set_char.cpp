@@ -14,17 +14,14 @@ int main(int argc, char* argv[])
 {
     if (argc < 2) {
         cerr << "uage: " << argv[0] << " <filename>" << endl;
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     ifstream in(argv[1]);
     if (!in) {
         cerr << "Can not open file: " << argv[1] << endl;
+        exit(EXIT_FAILURE);
     }
-
-    string line;
-    cin >> line;
-    cout << line << endl;
 
     char ch;
     set<char> sc;
